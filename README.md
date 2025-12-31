@@ -5,16 +5,19 @@
   
   [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
   [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+  [![Performance](https://img.shields.io/badge/Performance-60fps-success?style=for-the-badge&logo=speedtest&logoColor=white)]()
   [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
 </div>
+
+> *This project investigates how organic, liquid-style feedback can improve perceived responsiveness during touch interactions.*
 
 ---
 
 ## 🚀 Project Description
 
-**Photo Ripple** is a high-performance Flutter application that creates mesmerizing, interactive liquid ripple effects on images. Powered by custom **GLSL shaders** (`.frag`) and Flutter's **FragmentProgram**, creates a realistic water distortion effect that responds to user touch. 
+**Photo Ripple** is a high-performance Flutter application that creates mesmerizing, interactive liquid ripple effects on images. Powered by custom **GLSL shaders** (`.frag`), it implements a physics-inspired propagation model where user tap events visually simulate a liquid response. 
 
-Designed with a sleek, dark-themed UI and smooth 60fps animations, it showcases the power of Flutter for advanced visual effects.
+The project intentionally avoids third-party animation libraries to keep the motion logic transparent, lightweight, and fully controllable. Designed with a sleek, dark-themed UI, it demonstrates how low-level rendering can achieve cinematic visual effects at a stable **60fps on device**.
 
 ---
 
@@ -26,22 +29,25 @@ Designed with a sleek, dark-themed UI and smooth 60fps animations, it showcases 
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Philosophy
 
 *   **Framework**: [Flutter](https://flutter.dev) (Dart)
 *   **Rendering**: CustomPainter & Shaders (GLSL)
 *   **Typography**: Inter (Google Fonts)
 *   **Architecture**: Component-based UI
 
+**Design Philosophy:**
+> "The project intentionally avoids third-party animation libraries to keep motion logic transparent and controllable."
+
 ---
 
 ## ✨ Features
 
-*   **💧 Interactive Ripple Effect**: Tap anywhere on the image to spawn organic, expanding ripples.
-*   **⚡ Shader Powered**: Uses hardware-accelerated GLSL shaders for silky smooth performance.
+*   **💧 Interactive Ripple Effect**: User tap events trigger a ripple propagation model that visually simulates liquid response.
+*   **⚡ High Performance**: Optimized for 60fps rendering on mobile devices using hardware-accelerated GLSL.
 *   **🎨 Aesthetic UI**: Minimalist dark mode design with premium typography.
-*   **👆 Multi-touch Support**: Handles rapid touches efficiently.
-*   **📱 Responsive**: Adapts to different screen sizes and aspect ratios.
+*   **👆 Multi-touch Support**: Handles rapid touches with independent wave interference.
+*   **📱 Responsive**: Adapts seamless to different screen sizes and aspect ratios.
 
 ---
 
