@@ -23,9 +23,17 @@ The project intentionally avoids third-party animation libraries to keep the mot
 
 ## 📸 Demo
 
-| 📱 App Screenshot | 🎬 App Walkthrough |
-|------------------|-------------------|
-| ![](assets/ss.jpg) | ![](assets/promotion.gif) |
+<table>
+  <tr>
+    <td>
+      <img src="assets/ss.jpg" width="300" />
+    </td>
+    <td>
+      <img src="assets/promotion.gif" width="300" />
+    </td>
+  </tr>
+</table>
+
 
 ---
 
