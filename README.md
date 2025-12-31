@@ -51,6 +51,14 @@ The project intentionally avoids third-party animation libraries to keep the mot
 
 ---
 
+## ⚡ Performance
+The ripple animation maintains ~60 FPS on physical devices under
+standard interaction. No heavy shaders or GPU-intensive effects are used,
+keeping frame rendering stable.
+
+
+---
+
 ## 🔮 Future Enhancements
 
 *   [ ] **Custom Image Picker**: Allow users to upload their own photos.
@@ -110,7 +118,3 @@ CustomPaint(
 ```
 
 ---
-
-<div align="center">
-  Made with ❤️ by Akarsh
-</div>
