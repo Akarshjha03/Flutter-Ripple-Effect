@@ -23,9 +23,9 @@ The project intentionally avoids third-party animation libraries to keep the mot
 
 ## 📸 Demo
 
-<div align="center">
-  <img src="assets/promotion.gif" alt="App Demo" width="300">
-</div>
+| 📱 App Screenshot | 🎬 App Walkthrough |
+|------------------|-------------------|
+| ![](assets/ss.jpg) | ![](assets/promotion.gif) |
 
 ---
 
