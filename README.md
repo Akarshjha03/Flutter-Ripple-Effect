@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.png" alt="Photo Ripple Banner" width="100%">
+  <img src="assets/banner1.png" alt="Photo Ripple Banner" width="100%">
   
   # Photo Ripple 🌊
   
